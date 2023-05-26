@@ -7,19 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA84FAEB29CDE63E001B9918 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA84FAEA29CDE63E001B9918 /* DetailViewController.swift */; };
+		DAA7AECE29F9CC2B0037A8AC /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7AECD29F9CC2B0037A8AC /* Book.swift */; };
+		DAA7AED029F9CC2D0037A8AC /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7AECF29F9CC2D0037A8AC /* BookTableViewCell.swift */; };
+		DAA7AED229F9CC300037A8AC /* BookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA7AED129F9CC300037A8AC /* BookTableViewCell.xib */; };
+		DAA7AED529F9CC980037A8AC /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = DAA7AED429F9CC980037A8AC /* SDWebImage */; };
 		DACAB6C529C6591D0084FD3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAB6C429C6591D0084FD3B /* AppDelegate.swift */; };
 		DACAB6C729C6591D0084FD3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAB6C629C6591D0084FD3B /* SceneDelegate.swift */; };
-		DACAB6C929C6591D0084FD3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAB6C829C6591D0084FD3B /* ViewController.swift */; };
+		DACAB6C929C6591D0084FD3B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAB6C829C6591D0084FD3B /* SearchViewController.swift */; };
 		DACAB6CC29C6591D0084FD3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACAB6CA29C6591D0084FD3B /* Main.storyboard */; };
 		DACAB6CE29C6591E0084FD3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACAB6CD29C6591E0084FD3B /* Assets.xcassets */; };
 		DACAB6D129C6591E0084FD3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACAB6CF29C6591E0084FD3B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA84FAEA29CDE63E001B9918 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DAA7AECD29F9CC2B0037A8AC /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		DAA7AECF29F9CC2D0037A8AC /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		DAA7AED129F9CC300037A8AC /* BookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookTableViewCell.xib; sourceTree = "<group>"; };
 		DACAB6C129C6591D0084FD3B /* Book Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACAB6C429C6591D0084FD3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DACAB6C629C6591D0084FD3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DACAB6C829C6591D0084FD3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DACAB6C829C6591D0084FD3B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DACAB6CB29C6591D0084FD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DACAB6CD29C6591E0084FD3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DACAB6D029C6591E0084FD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA7AED529F9CC980037A8AC /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +68,11 @@
 			children = (
 				DACAB6C429C6591D0084FD3B /* AppDelegate.swift */,
 				DACAB6C629C6591D0084FD3B /* SceneDelegate.swift */,
-				DACAB6C829C6591D0084FD3B /* ViewController.swift */,
+				DACAB6C829C6591D0084FD3B /* SearchViewController.swift */,
+				DA84FAEA29CDE63E001B9918 /* DetailViewController.swift */,
+				DAA7AECD29F9CC2B0037A8AC /* Book.swift */,
+				DAA7AECF29F9CC2D0037A8AC /* BookTableViewCell.swift */,
+				DAA7AED129F9CC300037A8AC /* BookTableViewCell.xib */,
 				DACAB6CA29C6591D0084FD3B /* Main.storyboard */,
 				DACAB6CD29C6591E0084FD3B /* Assets.xcassets */,
 				DACAB6CF29C6591E0084FD3B /* LaunchScreen.storyboard */,
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = "Book Finder";
+			packageProductDependencies = (
+				DAA7AED429F9CC980037A8AC /* SDWebImage */,
+			);
 			productName = "Book Finder";
 			productReference = DACAB6C129C6591D0084FD3B /* Book Finder.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,9 @@
 				Base,
 			);
 			mainGroup = DACAB6B829C6591D0084FD3B;
+			packageReferences = (
+				DAA7AED329F9CC980037A8AC /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = DACAB6C229C6591D0084FD3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA7AED229F9CC300037A8AC /* BookTableViewCell.xib in Resources */,
 				DACAB6D129C6591E0084FD3B /* LaunchScreen.storyboard in Resources */,
 				DACAB6CE29C6591E0084FD3B /* Assets.xcassets in Resources */,
 				DACAB6CC29C6591D0084FD3B /* Main.storyboard in Resources */,
@@ -138,8 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DACAB6C929C6591D0084FD3B /* ViewController.swift in Sources */,
+				DACAB6C929C6591D0084FD3B /* SearchViewController.swift in Sources */,
 				DACAB6C529C6591D0084FD3B /* AppDelegate.swift in Sources */,
+				DA84FAEB29CDE63E001B9918 /* DetailViewController.swift in Sources */,
+				DAA7AECE29F9CC2B0037A8AC /* Book.swift in Sources */,
+				DAA7AED029F9CC2D0037A8AC /* BookTableViewCell.swift in Sources */,
 				DACAB6C729C6591D0084FD3B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +382,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAA7AED329F9CC980037A8AC /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAA7AED429F9CC980037A8AC /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAA7AED329F9CC980037A8AC /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DACAB6B929C6591D0084FD3B /* Project object */;
 }
