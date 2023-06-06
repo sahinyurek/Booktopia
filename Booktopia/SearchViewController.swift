@@ -72,6 +72,11 @@ extension SearchViewController: UISearchBarDelegate {
             searchBooks(query: query)
         }
     }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        books.removeAll()
+        tableView.reloadData()
+    }
 }
 
 extension SearchViewController: UITableViewDataSource {
@@ -104,7 +109,7 @@ extension SearchViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let book = books[indexPath.row]
         let detailViewController = DetailViewController(book: book)
-        navigationController?.pushViewController(detailViewController, animated: true)
+        performSegue(withIdentifier: "goToDetail", sender: self)
     }
 
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {

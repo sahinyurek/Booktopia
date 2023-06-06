@@ -25,7 +25,7 @@
 		DAA7AECD29F9CC2B0037A8AC /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		DAA7AECF29F9CC2D0037A8AC /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
 		DAA7AED129F9CC300037A8AC /* BookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookTableViewCell.xib; sourceTree = "<group>"; };
-		DACAB6C129C6591D0084FD3B /* Book Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACAB6C129C6591D0084FD3B /* Booktopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Booktopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACAB6C429C6591D0084FD3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DACAB6C629C6591D0084FD3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DACAB6C829C6591D0084FD3B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		DACAB6B829C6591D0084FD3B = {
 			isa = PBXGroup;
 			children = (
-				DACAB6C329C6591D0084FD3B /* Book Finder */,
+				DACAB6C329C6591D0084FD3B /* Booktopia */,
 				DACAB6C229C6591D0084FD3B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +58,12 @@
 		DACAB6C229C6591D0084FD3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DACAB6C129C6591D0084FD3B /* Book Finder.app */,
+				DACAB6C129C6591D0084FD3B /* Booktopia.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DACAB6C329C6591D0084FD3B /* Book Finder */ = {
+		DACAB6C329C6591D0084FD3B /* Booktopia */ = {
 			isa = PBXGroup;
 			children = (
 				DACAB6C429C6591D0084FD3B /* AppDelegate.swift */,
@@ -78,15 +78,15 @@
 				DACAB6CF29C6591E0084FD3B /* LaunchScreen.storyboard */,
 				DACAB6D229C6591E0084FD3B /* Info.plist */,
 			);
-			path = "Book Finder";
+			path = Booktopia;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DACAB6C029C6591D0084FD3B /* Book Finder */ = {
+		DACAB6C029C6591D0084FD3B /* Booktopia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DACAB6D529C6591E0084FD3B /* Build configuration list for PBXNativeTarget "Book Finder" */;
+			buildConfigurationList = DACAB6D529C6591E0084FD3B /* Build configuration list for PBXNativeTarget "Booktopia" */;
 			buildPhases = (
 				DACAB6BD29C6591D0084FD3B /* Sources */,
 				DACAB6BE29C6591D0084FD3B /* Frameworks */,
@@ -96,12 +96,12 @@
 			);
 			dependencies = (
 			);
-			name = "Book Finder";
+			name = Booktopia;
 			packageProductDependencies = (
 				DAA7AED429F9CC980037A8AC /* SDWebImage */,
 			);
 			productName = "Book Finder";
-			productReference = DACAB6C129C6591D0084FD3B /* Book Finder.app */;
+			productReference = DACAB6C129C6591D0084FD3B /* Booktopia.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DACAB6BC29C6591D0084FD3B /* Build configuration list for PBXProject "Book Finder" */;
+			buildConfigurationList = DACAB6BC29C6591D0084FD3B /* Build configuration list for PBXProject "Booktopia" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DACAB6C029C6591D0084FD3B /* Book Finder */,
+				DACAB6C029C6591D0084FD3B /* Booktopia */,
 			);
 		};
 /* End PBXProject section */
@@ -363,7 +363,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DACAB6BC29C6591D0084FD3B /* Build configuration list for PBXProject "Book Finder" */ = {
+		DACAB6BC29C6591D0084FD3B /* Build configuration list for PBXProject "Booktopia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DACAB6D329C6591E0084FD3B /* Debug */,
@@ -372,7 +372,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DACAB6D529C6591E0084FD3B /* Build configuration list for PBXNativeTarget "Book Finder" */ = {
+		DACAB6D529C6591E0084FD3B /* Build configuration list for PBXNativeTarget "Booktopia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DACAB6D629C6591E0084FD3B /* Debug */,
