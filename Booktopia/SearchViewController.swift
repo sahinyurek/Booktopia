@@ -1,6 +1,6 @@
 //
 //  DetailViewController.swift
-//  Book Finder
+//  Booktopia
 //
 //  Created by Şahin Yürek on 4/2/23.
 //
